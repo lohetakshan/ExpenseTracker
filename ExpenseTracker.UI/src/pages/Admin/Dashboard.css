@@ -1,0 +1,53 @@
+.admin-dashboard {
+  padding: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(180deg, #f6f9ff 0%, #ffffff 60%);
+  min-height: 100vh;
+}
+
+.admin-dashboard h2 {
+  text-align: center;
+  margin: 1.25rem auto;
+  color: #2a5298;
+  font-size: 1.6rem;
+}
+
+.admin-dashboard .card,
+.admin-dashboard table {
+  width: 100%;
+  max-width: 1100px;
+  border-collapse: collapse;
+  margin: 0.5rem auto 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 8px 24px rgba(26, 50, 99, 0.08);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.admin-dashboard th,
+.admin-dashboard td {
+  padding: 0.85rem 1rem;
+  border-bottom: 1px solid #f1f5fb;
+  text-align: left;
+}
+
+.admin-dashboard th {
+  background-color: #f0f8ff;
+  font-weight: 700;
+  color: #16335a;
+}
+
+.admin-dashboard tr:nth-child(even) {
+  background-color: #fbfdff;
+}
+
+.admin-dashboard tr:hover {
+  background-color: #eef6ff;
+}
+
+@media (max-width: 800px) {
+  .admin-dashboard th,
+  .admin-dashboard td {
+    padding: 0.6rem 0.5rem;
+  }
+}
